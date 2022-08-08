@@ -8,11 +8,11 @@
 * **Topic**: all Apache Kafka records are organised into topics, you can think of a topic like an event log or a table if you're familiar with databases.
 * **Apache Kafka Producer**: an entity/application that publishes data to Apache Kafka
 
-We will start with [starting Apache Kafka Service](#startkafka) in Aiven. We will then [produce messages ](#produce) and send them to Apache Kafka. We will [read the sent messages ](#read) in Apache Kafka. Eventually gathering the metrics in InfluxDB and viewing them on Grafana [Grafana](#integrate). 
+We will start with [starting Apache Kafka Service](#startkafka) in Aiven. We will then [produce messages ](#produce) and send them to Apache Kafka. We will [read the sent messages ](#read) in Apache Kafka. Eventually gathering the metrics in InfluxDB and viewing them on [Grafana](#integrate). 
 
 # <a name="startkafka"> Starting your Apache Kafka Service with Aiven.io
 There are 2 options to run Apache Kafka Service with Aiven. Either through [Aiven.io Console](https://console.aiven.io/signup?utm_source=github&utm_medium=organic&utm_campaign=blog_art&utm_content=post) or  [Aiven.io's CLI](https://github.com/aiven/aiven-client). 
-You can choose either one and move to viewing of messages <a name="head1234">
+You can choose either one and move to viewing of messages <a name="read">
 
 
 ## 1. Creating Apache Kafka Service through Aiven Console
